@@ -32,7 +32,9 @@ git clone --branch codex/theta-star-performance https://github.com/UziaPeer/Pyth
 עבור A* של NetworkX. זו אינה שחזור מדויק של זמני המאמר.
 
 ברירת המחדל מגבילה כל הרצה ל־60 שניות בתהליך נפרד. `--direct`
-מיועד רק לניסויים קטנים ומהירים. התוצאות שפורסמו נמצאות בתיקיות
-`thealgorithms_results/`, `thealgorithms_cache_v3/`,
+מיועד רק לניסויים קטנים ומהירים. התוצאות העדכניות נמצאות בתיקיות
+`thealgorithms_results_5seeds/`, `thealgorithms_cache_5seeds/`,
 `thealgorithms_limit_large/`, `thealgorithms_limit_cached/` ו־
-`thealgorithms_profile/`. הסיכום נמצא ב־`report_he.md`.
+`thealgorithms_profile/`. התיקיות `thealgorithms_results/` ו־
+`thealgorithms_cache_v3/` הן מדגם מוקדם יותר. הסיכום נמצא ב־
+`report_he.md`.

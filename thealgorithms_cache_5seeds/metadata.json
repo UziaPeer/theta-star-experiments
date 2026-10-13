@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "arguments": {
+    "sizes": [
+      80,
+      150,
+      300,
+      600,
+      1000
+    ],
+    "densities": [
+      20
+    ],
+    "seeds": 5,
+    "algorithms": [
+      "basic",
+      "basic-cached"
+    ],
+    "limit": 60,
+    "output": "thealgorithms_cache_5seeds",
+    "optimized_file": "..\\thealgorithms-python\\graphs\\theta_star_cached.py",
+    "direct": true
+  },
+  "timing": "seconds excludes grid/graph setup; total_seconds includes it; validation excluded",
+  "tie_breaking": "Theta*: smaller g; NetworkX A*: insertion order (not identical to paper)"
+}

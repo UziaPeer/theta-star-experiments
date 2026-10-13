@@ -109,7 +109,7 @@ def measure(size, density, seed, algorithm, optimized_file=None):
                 path = module.theta_star_cached(cells, start, goal)
             else:
                 path = theta_star(cells, start, goal)
-        status = "ok"
+        status = "ok" if path else "no_path"
     except nx.NetworkXNoPath:
         path, status = [], "no_path"
     seconds = perf_counter() - t0
