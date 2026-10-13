@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "arguments": {
+    "sizes": [
+      3000,
+      4000
+    ],
+    "densities": [
+      20
+    ],
+    "seeds": 1,
+    "algorithms": [
+      "basic"
+    ],
+    "limit": 60.0,
+    "output": "assignment_10\\experiments\\thealgorithms_limit_large",
+    "optimized_file": null,
+    "direct": false
+  },
+  "timing": "seconds excludes grid/graph setup; total_seconds includes it; validation excluded",
+  "tie_breaking": "Theta*: smaller g; NetworkX A*: insertion order (not identical to paper)"
+}

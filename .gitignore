@@ -1,0 +1,12 @@
+.mplcache/
+__pycache__/
+.pytest_cache/
+results/
+cache_results/
+limit_results/
+limit_refinement/
+thealgorithms_smoke/
+thealgorithms_cache_results/
+thealgorithms_cache_v2/
+thealgorithms_limit/
+theta-star-performance/

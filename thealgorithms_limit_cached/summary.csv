@@ -1,0 +1,3 @@
+size,density,algorithm,runs,successes,mean_seconds,median_seconds,mean_total_seconds,mean_length,mean_turns
+3000,20,basic-cached,1,1,36.053854200057685,36.053854200057685,36.52353199990466,4272.108175563241,547.0
+4000,20,basic-cached,1,0,,,,,

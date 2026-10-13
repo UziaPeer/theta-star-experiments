@@ -1,0 +1,33 @@
+         1016185 function calls in 0.431 seconds
+
+   Ordered by: cumulative time
+   List reduced from 49 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.431    0.431 run.py:77(measure)
+        1    0.000    0.000    0.409    0.409 theta_star.py:157(theta_star)
+        1    0.031    0.031    0.402    0.402 theta_star.py:226(_search)
+    38233    0.069    0.000    0.325    0.000 theta_star.py:69(line_of_sight)
+     3234    0.012    0.000    0.229    0.000 theta_star.py:116(neighbors)
+    76468    0.124    0.000    0.227    0.000 theta_star.py:52(valid_corner)
+    76454    0.027    0.000    0.090    0.000 {built-in method builtins.any}
+   167670    0.042    0.000    0.065    0.000 theta_star.py:66(<genexpr>)
+   178466    0.045    0.000    0.045    0.000 theta_star.py:42(blocked)
+        3    0.000    0.000    0.018    0.006 theta_star.py:31(__init__)
+    67503    0.011    0.000    0.011    0.000 theta_star.py:35(<genexpr>)
+        1    0.007    0.007    0.010    0.010 run.py:34(generate_grid)
+    26307    0.007    0.000    0.010    0.000 __init__.py:1517(debug)
+    18574    0.006    0.000    0.009    0.000 theta_star.py:127(distance)
+    76378    0.008    0.000    0.008    0.000 {built-in method builtins.abs}
+    76470    0.008    0.000    0.008    0.000 {built-in method builtins.isinstance}
+    77374    0.008    0.000    0.008    0.000 {built-in method builtins.len}
+    32340    0.005    0.000    0.005    0.000 theta_star.py:123(<genexpr>)
+    18574    0.003    0.000    0.003    0.000 {built-in method math.hypot}
+    26308    0.003    0.000    0.003    0.000 __init__.py:1790(isEnabledFor)
+    12328    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+    22500    0.003    0.000    0.003    0.000 {method 'random' of '_random.Random' objects}
+     4334    0.002    0.000    0.002    0.000 {built-in method _heapq.heappop}
+     6179    0.002    0.000    0.002    0.000 {built-in method _heapq.heappush}
+     6180    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+
+

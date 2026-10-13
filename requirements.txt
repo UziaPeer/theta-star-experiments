@@ -1,0 +1,5 @@
+theta-star-basic @ git+https://github.com/UziaPeer/Python.git@codex/theta-star-deployment
+experiments-csv==0.6.0
+networkx==3.7
+matplotlib==3.10.3
+pandas==2.2.3
